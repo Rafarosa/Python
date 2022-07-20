@@ -60,10 +60,47 @@ mi2 = km2/1.61
 
 print(f'A distância {km2} Km é igua a {mi2:.2f} milhas')
 """
+"""
 print('14. Leia um ângulo em graus e apresente-o convertido em radianos. A fórmula de conversão é: R= G * Pi/180, sendo G o ângulo em graus e R em radianos e Pi = 3.14.')
 
 g1 = float(input('Por favor, informe o ângulo em graus para conversão:'))
 
 r1 = (g1 * 3.14)/180
 
-print(f'{g1} Graus é igual a {r1} Radianos')
+print(f'{g1} Graus é igual a {r1:.2f} Radianos')
+"""
+"""
+print('15. Leia um ângulo em radianos e apresente-o convertido em graus. A fórmula de conversão é:G = R * 180/Pi, sendo G o ângulo em graus e R em radianos e Pi = 3.14.')
+
+r2 = float(input('por gentileza, informe o ângulo em radianos para ser convertido: '))
+
+g2 = (r2 * 180)/3.14
+
+print(f'{r2} radianos é igual a {g2:.2f} Graus')
+"""
+"""
+print('16. Leia um valor de comprimento em polegadas e apresente-o convertido em centimetros. A fórmula de conversão é: C = P * 2,54, sendo C o comprimento em centímetros e P o comprimento em polegadas.')
+
+p1 = float(input('Por gentileza, informe o valor do comprimento em polegadas para conversão: '))
+
+c1 = p1 * 2.54
+
+print(f'o valor {p1} polegadas é igual a {c1:.2f} centimetros')
+"""
+"""
+print('17. Leia um valor de comprimento em centimetros e apresente-o convertido em polegadas. A fórmula de conversão é: P = C/2,54, sendo C o comprimento em centímetros e P o comprimento em polegadas.')
+
+c2 = float(input('Por gentileza, informe o valor do comprimento em centimetros para conversão: '))
+
+p2 = c2/2.54
+
+print(f'o valor {c2} centimetros é igual a {p2:.2f} polegadas')
+"""
+"""
+print('18. Leia um valor de volume em metros cúbicos m³ e apresente-o convertido em litros. A fórmula de conversão é: L = 1000 * M, sendo L o volume em litros e M o volume em metros cúbicos.')
+
+mc1 = float(input('Por gentileza, informe o valor em metros cúbicos para a conversão: '))
+
+l1 = 1000 * mc1
+
+print(f'{mc1}³ é igual a {l1:.2f} Litros')
