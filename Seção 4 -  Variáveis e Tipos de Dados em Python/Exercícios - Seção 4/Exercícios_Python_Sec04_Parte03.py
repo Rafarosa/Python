@@ -50,4 +50,4 @@ j2 = m2 / 0.91
 print(f'{m2} Metros é igual a {j2:.2f} Jardas')
 """
 
-print('24 -  Leia um valor de área em metros quadrados m² e apresente-o convertido em acres. A fórmula de conversão é: A = M * 0,000247, sendo M a área em metros quadrados e A a área em acres.')
+print('24 - Leia um valor de área em metros quadrados m² e apresente-o convertido em acres. A fórmula de conversão é: A = M * 0,000247, sendo M a área em metros quadrados e A a área em acres.')
