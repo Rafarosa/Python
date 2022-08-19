@@ -1,14 +1,4 @@
 """
-
-
-25 - Leia um valor de área em acres e apresente-o convertido em metros quadrados m². A
-fórmula de conversão é: M = A * 4018,58 , sendo M a área em metros quadrados e A a
-área em acres.
-
-26 - Leia um valor de área em metros quadrados m² e apresente-o convertido em hectares.
-A fórmula de conversão é: H = M * 0,0001, sendo M a área em metros quadrados e H
-a área em hectares.
-
 27 - Leia um valor de área em hectares e apresente-o convertido em metros quadrados m
 A fórmula de conversão é: M = H * 10000, sendo M a área em metros quadrados e H
 aárea em hectares.
@@ -49,5 +39,38 @@ j2 = m2 / 0.91
 
 print(f'{m2} Metros é igual a {j2:.2f} Jardas')
 """
-
+"""
 print('24 - Leia um valor de área em metros quadrados m² e apresente-o convertido em acres. A fórmula de conversão é: A = M * 0,000247, sendo M a área em metros quadrados e A a área em acres.')
+
+mq1 = float(input('Informe o valor em m² para apresentar a sua conversão em Acres: '))
+
+ac1 = mq1 * 0.000247
+
+print(f'{mq1}m² é igual a {ac1:.4f}Acres')
+"""
+"""
+print('25 - Leia um valor de área em acres e apresente-o convertido em metros quadrados m². A fórmula de conversão é: M = A * 4018,58 , sendo M a área em metros quadrados e A a área em acres.')
+
+ac2 = float(input('Informe o valor em acres para apresentar a sua conversão em m²: '))
+
+mq2 = ac2 * 4018.58
+
+print(f"{ac2} Acres é igual a {mq2:.2f}M²")
+"""
+"""
+print('26 - Leia um valor de área em metros quadrados m² e apresente-o convertido em hectares. A fórmula de conversão é: H = M * 0,0001, sendo M a área em metros quadrados e H a área em hectares.')
+
+mq3 = float(input('Informe o valor em M² para ser convertido em hectares: '))
+
+h1 = mq3 * 0.0001
+
+print(f'{mq3}m² é igual a {h1:.2f} hectares')
+"""
+
+print('27 - Leia um valor de área em hectares e apresente-o convertido em metros quadrados m². A fórmula de conversão é: M = H * 10000, sendo M a área em metros quadrados e H a área em hectares.')
+
+h2 = float(input('Informe o valor em Hectares para ser convertido em M²: '))
+
+h1 = mq3 * 0.0001
+
+print(f'{mq3}m² é igual a {h1:.2f} hectares')
