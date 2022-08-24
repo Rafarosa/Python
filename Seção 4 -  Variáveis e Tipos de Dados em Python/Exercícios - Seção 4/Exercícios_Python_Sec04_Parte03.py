@@ -1,11 +1,4 @@
 """
-27 - Leia um valor de área em hectares e apresente-o convertido em metros quadrados m
-A fórmula de conversão é: M = H * 10000, sendo M a área em metros quadrados e H
-aárea em hectares.
-
-28 - Faça a leitura de três valores e apresente como resultado a soma dos quadrados dos
-três valores lidos.
-
 29 - Leia quatro notas, calcule a média aritmética e imprima o resultado.
 
 30 - Leia um valor em real e a cotação do dólar. Em seguida, imprima o valor correspondente
@@ -66,11 +59,34 @@ h1 = mq3 * 0.0001
 
 print(f'{mq3}m² é igual a {h1:.2f} hectares')
 """
-
+"""
 print('27 - Leia um valor de área em hectares e apresente-o convertido em metros quadrados m². A fórmula de conversão é: M = H * 10000, sendo M a área em metros quadrados e H a área em hectares.')
 
-h2 = float(input('Informe o valor em Hectares para ser convertido em M²: '))
+mq3 = float(input('Informe o valor em Hectares para ser convertido em M²: '))
 
-h1 = mq3 * 0.0001
+h2 = mq3 * 0.0001
 
-print(f'{mq3}m² é igual a {h1:.2f} hectares')
+print(f'{mq3}m² é igual a {h2:.2f} hectares')
+"""
+"""
+print('28 - Faça a leitura de três valores e apresente como resultado a soma dos quadrados dos três valores lidos.')
+
+valor01 = float(input('Informe o primeiro valor: '))
+valor02 = float(input('Informe o segundo valor: '))
+valor03 = float(input('Informe o terceiro valor: '))
+
+valorTotal = valor01**2 + valor02**2 + valor03**2
+
+print(f'{valor01}² + {valor02}² + {valor03}² é igual a {valorTotal}')
+
+"""
+print('29 - Leia quatro notas, calcule a média aritmética e imprima o resultado.')
+
+nota01 = float(input('Informe a primeira nota:'))
+nota02 = float(input('Informe a segunda nota:'))
+nota03 = float(input('Informe a terceira nota:'))
+nota04 = float(input('Informe a quarta nota:'))
+
+mediaFinal = (nota01+nota02+nota03+nota04)/4
+
+print(f'Sua média final é {mediaFinal} pontos')
