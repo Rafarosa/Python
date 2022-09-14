@@ -1,5 +1,6 @@
 import math
 
+"""
 print('35 - Sejam a e b os catetos de um triângulo, onde a hipotenusa é obtida pela equação: hipotenusa = √a² + b². '
       'Faça um programa que receba os valores de a e b e calcule  o valor da hipotenusa através da equação. Imprima o '
       'resultado dessa operação.')
@@ -10,12 +11,18 @@ b1 = float(input("Informe o Cateto B do Triangulo: "))
 hipot = math.sqrt((math.pow(a1, 2) + math.pow(b1, 2)))
 
 print(f'a Hipotenusa deste triangulo é {hipot:.2f}')
+"""
 
-"""
-36 - Leia a altura e o raio de um cilindro circular e imprima o volume do cilindro. O volume
-de um cilindro circular é calculado por meio da seguinte fórmula: V = Pi * raio² * altura,
-onde Pi = 3.141592.
-"""
+print('36 - Leia a altura e o raio de um cilindro circular e imprima o volume do cilindro. '
+      'O volume de um cilindro circular é calculado por meio da seguinte fórmula: '
+      'V = Pi * raio² * altura, onde Pi = 3.141592.')
+
+aCilindro = float(input('informe a altura do cilindro: '))
+rCilindro = float(input('informe o raio do cilindro: '))
+
+vCilindro = math.pi * math.pow(rCilindro, 2) * aCilindro
+
+print(f'O volume do cilindor é {vCilindro:.2f} m³')
 
 """
 37 - Faça um programa que leia o valor de um produto e imprima o valor com desconto, tendo
