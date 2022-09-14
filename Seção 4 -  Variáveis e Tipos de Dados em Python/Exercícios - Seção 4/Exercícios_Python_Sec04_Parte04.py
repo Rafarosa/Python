@@ -24,7 +24,7 @@ vCilindro = math.pi * math.pow(rCilindro, 2) * aCilindro
 
 print(f'O volume do cilindor é {vCilindro:.2f} m³')
 """
-
+"""
 print('37 - Faça um programa que leia o valor de um produto e imprima o valor com desconto, '
       'tendo em vista que o desconto foi de 12%')
 
@@ -34,11 +34,17 @@ desconto = 0.12
 vTotalProduto = vProduto - (vProduto * desconto)
 
 print(f'Seu produto custa {vProduto}, com o desconto, seu produto sairá por {vTotalProduto:.2f}')
+"""
 
-"""
-38 - Leia o salário de um funcionário. Calcule e imprima o valor do novo salário, sabendo que
-ele recebeu um aumento de 25%.
-"""
+print('38 - Leia o salário de um funcionário. Calcule e imprima o valor do novo salário, '
+      'sabendo que ele recebeu um aumento de 25%.')
+
+salarioAtual = float(input('Informe seu salário atual: '))
+pSalario = 0.25
+novoSalario = salarioAtual + (salarioAtual * pSalario)
+
+print(f'Seu salário atual é de R${salarioAtual},Com seu aumento, passará a ser de R${novoSalario}')
+
 """
 39 - A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso.
 Sendo que da quantia total:
