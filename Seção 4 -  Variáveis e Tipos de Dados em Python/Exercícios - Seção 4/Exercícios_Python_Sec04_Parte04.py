@@ -12,7 +12,7 @@ hipot = math.sqrt((math.pow(a1, 2) + math.pow(b1, 2)))
 
 print(f'a Hipotenusa deste triangulo é {hipot:.2f}')
 """
-
+"""
 print('36 - Leia a altura e o raio de um cilindro circular e imprima o volume do cilindro. '
       'O volume de um cilindro circular é calculado por meio da seguinte fórmula: '
       'V = Pi * raio² * altura, onde Pi = 3.141592.')
@@ -23,11 +23,18 @@ rCilindro = float(input('informe o raio do cilindro: '))
 vCilindro = math.pi * math.pow(rCilindro, 2) * aCilindro
 
 print(f'O volume do cilindor é {vCilindro:.2f} m³')
+"""
 
-"""
-37 - Faça um programa que leia o valor de um produto e imprima o valor com desconto, tendo
-em vista que o desconto foi de 12%
-"""
+print('37 - Faça um programa que leia o valor de um produto e imprima o valor com desconto, '
+      'tendo em vista que o desconto foi de 12%')
+
+vProduto = float(input('Informe o valor do seu produto: '))
+desconto = 0.12
+
+vTotalProduto = vProduto - (vProduto * desconto)
+
+print(f'Seu produto custa {vProduto}, com o desconto, seu produto sairá por {vTotalProduto:.2f}')
+
 """
 38 - Leia o salário de um funcionário. Calcule e imprima o valor do novo salário, sabendo que
 ele recebeu um aumento de 25%.
