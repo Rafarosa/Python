@@ -35,7 +35,7 @@ vTotalProduto = vProduto - (vProduto * desconto)
 
 print(f'Seu produto custa {vProduto}, com o desconto, seu produto sairá por {vTotalProduto:.2f}')
 """
-
+"""
 print('38 - Leia o salário de um funcionário. Calcule e imprima o valor do novo salário, '
       'sabendo que ele recebeu um aumento de 25%.')
 
@@ -44,19 +44,26 @@ pSalario = 0.25
 novoSalario = salarioAtual + (salarioAtual * pSalario)
 
 print(f'Seu salário atual é de R${salarioAtual},Com seu aumento, passará a ser de R${novoSalario}')
-
 """
-39 - A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso.
-Sendo que da quantia total:
 
-• O primeiro ganhador receberá 46%;
+print('39 - A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso.\n'
+      'Sendo que da quantia total:\n'
+      '• O primeiro ganhador receberá 46%;\n'
+      '• O segundo receberá 32%;\n'
+      '• Oterceiro receberá o restante;\n'
+      ''
+      'Calcule e imprima a quantia ganha por cada um dos ganhadores.')
 
-• O segundo receberá 32%;
+valorPremio = 780000.00
+primeiroGanhador = valorPremio * 0.46
+segundoGanhador = valorPremio * 0.32
+terceiroGanhador = valorPremio - (segundoGanhador + primeiroGanhador)
 
-• Oterceiro receberá o restante;
+print(f'a Primiação ficou a seguinte:\n'
+      f'Primeiro lugar ganhará R${primeiroGanhador}\n'
+      f'Segundo Lugar ganhará R${segundoGanhador}\n'
+      f'Terceiro Lugar ganhará R${terceiroGanhador}\n' )
 
- Calcule e imprima a quantia ganha por cada um dos ganhadores.
-"""
 """
 40 - Uma empresa contrata um encanador a R$30,00 por dia. Faça um programa que solicite
 o número de dias trabalhados pelo encanador e imprima a quantia líquida que deverá ser
