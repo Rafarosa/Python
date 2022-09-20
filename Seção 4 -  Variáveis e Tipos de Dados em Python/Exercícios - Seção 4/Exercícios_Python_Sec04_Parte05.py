@@ -1,4 +1,4 @@
-
+"""
 print('41 - Faça um programa que leia o valor da hora de trabalho (em reais) e número de horas.'
       'trabalhadas no mês. Imprima o valor a ser pago ao funcionário, adicionando 10% sobre'
       'o valor calculado.')
@@ -10,10 +10,21 @@ vAdicional = valorPago + (valorPago * 0.10)
 
 print(f'O valor a ser pago é de R${valorPago:.2f}, com o adicional de 10%, o valor será {vAdicional:.2f}')
 """
-42 - Receba o salário-base de um funcionário. Calcule e imprima o salário a receber, sabendo-
-se que esse funcionário tem uma gratificação de 5% sobre o salário-base. Além disso,
-ele paga 7% de imposto sobre o salário-base.
-"""
+
+print('42 - Receba o salário-base de um funcionário. Calcule e imprima o salário a receber, sabendo-'
+      'se que esse funcionário tem uma gratificação de 5% sobre o salário-base. Além disso,'
+      'ele paga 7% de imposto sobre o salário-base.')
+
+salarioBase = float(input('Informe o salario base do funcionário (R$): '))
+salarioGrati = salarioBase * 0.05
+impostoSalario = salarioBase * 0.07
+salarioLiquido = (salarioBase + salarioGrati) - impostoSalario
+
+print(f' - Salário base do funcionário é de R${salarioBase:.2f}\n'
+      f' - Gratificação do funcionário é de R${salarioGrati:.2f}\n'
+      f' - Imposto sobre o salário Base é de R${impostoSalario:.2f}\n'
+      f' - Salario Líquido é de R$ {salarioLiquido:.2f}')
+
 """
 43 - Escreva um programa de ajuda para vendedores. A partir de um valor total lido, mostre:
 
