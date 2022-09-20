@@ -1,8 +1,14 @@
-"""
-41 - Faça um programa que leia o valor da hora de trabalho (em reais) e número de horas.
-trabalhadas no mês. Imprima o valor a ser pago ao funcionário, adicionando 10% sobre
-o valor calculado.
-"""
+
+print('41 - Faça um programa que leia o valor da hora de trabalho (em reais) e número de horas.'
+      'trabalhadas no mês. Imprima o valor a ser pago ao funcionário, adicionando 10% sobre'
+      'o valor calculado.')
+
+valorHora = float(input('Informe o valor da Hora trabalhada em reais (R$):'))
+nHorasTrabalho = int(input('Informe a quantidade de horas trabalhadas no mês: '))
+valorPago = valorHora * nHorasTrabalho
+vAdicional = valorPago + (valorPago * 0.10)
+
+print(f'O valor a ser pago é de R${valorPago:.2f}, com o adicional de 10%, o valor será {vAdicional:.2f}')
 """
 42 - Receba o salário-base de um funcionário. Calcule e imprima o salário a receber, sabendo-
 se que esse funcionário tem uma gratificação de 5% sobre o salário-base. Além disso,
