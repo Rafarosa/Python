@@ -25,7 +25,7 @@ print(f' - Salário base do funcionário é de R${salarioBase:.2f}\n'
       f' - Imposto sobre o salário Base é de R${impostoSalario:.2f}\n'
       f' - Salario Líquido é de R$ {salarioLiquido:.2f}')
 """
-
+"""
 print('43 - Escreva um programa de ajuda para vendedores. A partir de um valor total lido, mostre:'
       '• O total a pagar com desconto de 10%;'
       '• O valor de cada parcela, no parcelamento de 3x sem juros;'
@@ -42,12 +42,18 @@ print(f'O total a pagar com desconto de 10%: R${vDescont10:.2f}\n'
       f'O valor de cada parcela, no parcelamento de 3x sem juros: R${vParcela3:.2f}\n'
       f'A comissão do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto): R${comissaoVista}\n'
       f'A comissão do vendedor, no caso da venda ser parcelada (5% sobre o valor total): R${comissaoParcela:.2f}')
+"""
 
-"""
-44 - Receba a altura do degrau de uma escada e a altura que o usuário deseja alcançar
-subindo a escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir
-seu objetivo.
-"""
+print('44 - Receba a altura do degrau de uma escada e a altura que o usuário deseja alcançar'
+      'subindo a escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir'
+      'seu objetivo.')
+alturaDegrau = float(input('Informe a altura do degrau em milimetros: '))
+alturaAlcancar = float(input('Informe a altura a qual deseja alcançar em metros:'))
+
+quantidadeDegraus = alturaAlcancar / (alturaDegrau/1000)
+print('Aqui usaremos a NR-31 - definição de 200mm de espaço entre degraus ')
+print(f'Para atingir a altura de {alturaAlcancar:.2f}m, é necessario subir {quantidadeDegraus:.2f}')
+
 """
 45 - Faça um programa para converter uma letra maiúscula em letra minúscula. Use a tabela
 ASCII para resolver o problema.
