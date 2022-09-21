@@ -10,7 +10,7 @@ vAdicional = valorPago + (valorPago * 0.10)
 
 print(f'O valor a ser pago é de R${valorPago:.2f}, com o adicional de 10%, o valor será {vAdicional:.2f}')
 """
-
+"""
 print('42 - Receba o salário-base de um funcionário. Calcule e imprima o salário a receber, sabendo-'
       'se que esse funcionário tem uma gratificação de 5% sobre o salário-base. Além disso,'
       'ele paga 7% de imposto sobre o salário-base.')
@@ -24,15 +24,25 @@ print(f' - Salário base do funcionário é de R${salarioBase:.2f}\n'
       f' - Gratificação do funcionário é de R${salarioGrati:.2f}\n'
       f' - Imposto sobre o salário Base é de R${impostoSalario:.2f}\n'
       f' - Salario Líquido é de R$ {salarioLiquido:.2f}')
-
 """
-43 - Escreva um programa de ajuda para vendedores. A partir de um valor total lido, mostre:
 
-• ototal a pagar com desconto de 10%;
-• o valor de cada parcela, no parcelamento de 3x sem juros;
-• a comissão do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto)
-• a comissão do vendedor, no caso da venda ser parcelada (5% sobre o valor total)
-"""
+print('43 - Escreva um programa de ajuda para vendedores. A partir de um valor total lido, mostre:'
+      '• O total a pagar com desconto de 10%;'
+      '• O valor de cada parcela, no parcelamento de 3x sem juros;'
+      '• A comissão do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto)'
+      '• A comissão do vendedor, no caso da venda ser parcelada (5% sobre o valor total)')
+
+valorTotal = float(input('Informe o valor total do protudo\serviço a ser vendido: R$'))
+vDescont10 = valorTotal - (valorTotal * 0.10)
+vParcela3 = valorTotal / 3
+comissaoVista = valorTotal * 0.05
+comissaoParcela = valorTotal * 0.05
+
+print(f'O total a pagar com desconto de 10%: R${vDescont10:.2f}\n'
+      f'O valor de cada parcela, no parcelamento de 3x sem juros: R${vParcela3:.2f}\n'
+      f'A comissão do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto): R${comissaoVista}\n'
+      f'A comissão do vendedor, no caso da venda ser parcelada (5% sobre o valor total): R${comissaoParcela:.2f}')
+
 """
 44 - Receba a altura do degrau de uma escada e a altura que o usuário deseja alcançar
 subindo a escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir
