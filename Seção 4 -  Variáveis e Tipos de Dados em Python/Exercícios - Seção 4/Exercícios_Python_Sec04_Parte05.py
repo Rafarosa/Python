@@ -43,7 +43,7 @@ print(f'O total a pagar com desconto de 10%: R${vDescont10:.2f}\n'
       f'A comissão do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto): R${comissaoVista}\n'
       f'A comissão do vendedor, no caso da venda ser parcelada (5% sobre o valor total): R${comissaoParcela:.2f}')
 """
-
+"""
 print('44 - Receba a altura do degrau de uma escada e a altura que o usuário deseja alcançar'
       'subindo a escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir'
       'seu objetivo.')
@@ -53,11 +53,14 @@ alturaAlcancar = float(input('Informe a altura a qual deseja alcançar em metros
 quantidadeDegraus = alturaAlcancar / (alturaDegrau/1000)
 print('Aqui usaremos a NR-31 - definição de 200mm de espaço entre degraus ')
 print(f'Para atingir a altura de {alturaAlcancar:.2f}m, é necessario subir {quantidadeDegraus:.2f}')
+"""
 
-"""
-45 - Faça um programa para converter uma letra maiúscula em letra minúscula. Use a tabela
-ASCII para resolver o problema.
-"""
+print('45 - Faça um programa para converter uma letra maiúscula em letra minúscula. Use a tabela'
+      'ASCII para resolver o problema.')
+
+letra = str(input('Informe uma letra maiúscula para ser convertida em minuscula: '))
+print(f'Convertendo a letra {letra} fica {letra.lower()}')
+
 """
 46 -Faça um programa que leia um número inteiro positivo de três dígitos (de 100 a 999).
 Gere outro número formado pelos dígitos invertidos do número lido. Exemplo:
