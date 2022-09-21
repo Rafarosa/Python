@@ -61,7 +61,7 @@ print('45 - Faça um programa para converter uma letra maiúscula em letra minú
 letra = str(input('Informe uma letra maiúscula para ser convertida em minuscula: '))
 print(f'Convertendo a letra {letra} fica {letra.lower()}')
 """
-
+"""
 print('46 -Faça um programa que leia um número inteiro positivo de três dígitos (de 100 a 999).'
       'Gere outro número formado pelos dígitos invertidos do número lido. Exemplo:'
       'limeroLido = 123'
@@ -70,10 +70,14 @@ print('46 -Faça um programa que leia um número inteiro positivo de três dígi
 numeral3Digitos = int(input('Informe um número para ser invertido: '))
 numeral3Digitos = str(numeral3Digitos)
 print(f'O valor invertido é: {numeral3Digitos[::-1]}')
+"""
 
-"""
-47 - Leia um número inteiro de 4 dígitos (de 1000 a 9999) e imprima 1 dígito por linha.
-"""
+print('47 - Leia um número inteiro de 4 dígitos (de 1000 a 9999) e imprima 1 dígito por linha.')
+numeral4Digitos = int(input('Informe um número interio de 4 digitos: '))
+numeral4Digitos = str(numeral4Digitos)
+
+print(f'{numeral4Digitos[0]}\n{numeral4Digitos[1]}\n{numeral4Digitos[2]}\n{numeral4Digitos[3]}\n')
+
 """
 48 - Leia um valor inteiro em segundos, e imprima-o em horas, minutos e segundos.
 """
