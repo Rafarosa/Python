@@ -54,20 +54,23 @@ quantidadeDegraus = alturaAlcancar / (alturaDegrau/1000)
 print('Aqui usaremos a NR-31 - definição de 200mm de espaço entre degraus ')
 print(f'Para atingir a altura de {alturaAlcancar:.2f}m, é necessario subir {quantidadeDegraus:.2f}')
 """
-
+"""
 print('45 - Faça um programa para converter uma letra maiúscula em letra minúscula. Use a tabela'
       'ASCII para resolver o problema.')
 
 letra = str(input('Informe uma letra maiúscula para ser convertida em minuscula: '))
 print(f'Convertendo a letra {letra} fica {letra.lower()}')
-
 """
-46 -Faça um programa que leia um número inteiro positivo de três dígitos (de 100 a 999).
-Gere outro número formado pelos dígitos invertidos do número lido. Exemplo:
 
-limeroLido = 123
-NúmeroGerado = 32
-"""
+print('46 -Faça um programa que leia um número inteiro positivo de três dígitos (de 100 a 999).'
+      'Gere outro número formado pelos dígitos invertidos do número lido. Exemplo:'
+      'limeroLido = 123'
+      'NúmeroGerado = 321')
+
+numeral3Digitos = int(input('Informe um número para ser invertido: '))
+numeral3Digitos = str(numeral3Digitos)
+print(f'O valor invertido é: {numeral3Digitos[::-1]}')
+
 """
 47 - Leia um número inteiro de 4 dígitos (de 1000 a 9999) e imprima 1 dígito por linha.
 """
