@@ -71,16 +71,21 @@ numeral3Digitos = int(input('Informe um número para ser invertido: '))
 numeral3Digitos = str(numeral3Digitos)
 print(f'O valor invertido é: {numeral3Digitos[::-1]}')
 """
-
+"""
 print('47 - Leia um número inteiro de 4 dígitos (de 1000 a 9999) e imprima 1 dígito por linha.')
 numeral4Digitos = int(input('Informe um número interio de 4 digitos: '))
 numeral4Digitos = str(numeral4Digitos)
 
 print(f'{numeral4Digitos[0]}\n{numeral4Digitos[1]}\n{numeral4Digitos[2]}\n{numeral4Digitos[3]}\n')
+"""
 
-"""
-48 - Leia um valor inteiro em segundos, e imprima-o em horas, minutos e segundos.
-"""
+print('48 - Leia um valor inteiro em segundos, e imprima-o em horas, minutos e segundos.')
+segundos = float(input('Informe o valor interio em segundos para saber horas,minutos e segundos: '))
+minutos = segundos / 60
+horas = minutos / 60
+
+print(f'{segundos} segundos, equivalem a {minutos:.2f} minutos, e a {horas:.2f} horas')
+
 """
 49 - Faça um programa para leia o horário (hora, minuto e segundo) de início e a duração, em
 segundos, de uma experiência biológica. O programa deve resultar com o novo horário
