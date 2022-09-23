@@ -1,3 +1,4 @@
+
 """
 print('41 - Faça um programa que leia o valor da hora de trabalho (em reais) e número de horas.'
       'trabalhadas no mês. Imprima o valor a ser pago ao funcionário, adicionando 10% sobre'
@@ -10,6 +11,8 @@ vAdicional = valorPago + (valorPago * 0.10)
 
 print(f'O valor a ser pago é de R${valorPago:.2f}, com o adicional de 10%, o valor será {vAdicional:.2f}')
 """
+import datetime
+
 """
 print('42 - Receba o salário-base de um funcionário. Calcule e imprima o salário a receber, sabendo-'
       'se que esse funcionário tem uma gratificação de 5% sobre o salário-base. Além disso,'
@@ -78,20 +81,17 @@ numeral4Digitos = str(numeral4Digitos)
 
 print(f'{numeral4Digitos[0]}\n{numeral4Digitos[1]}\n{numeral4Digitos[2]}\n{numeral4Digitos[3]}\n')
 """
-
+"""
 print('48 - Leia um valor inteiro em segundos, e imprima-o em horas, minutos e segundos.')
 segundos = float(input('Informe o valor interio em segundos para saber horas,minutos e segundos: '))
 minutos = segundos / 60
 horas = minutos / 60
 
 print(f'{segundos} segundos, equivalem a {minutos:.2f} minutos, e a {horas:.2f} horas')
+"""
 
-"""
-49 - Faça um programa para leia o horário (hora, minuto e segundo) de início e a duração, em
-segundos, de uma experiência biológica. O programa deve resultar com o novo horário
-(hora, minuto e segundo) do termino da mesma.
-"""
-"""
-50 - Implemente um programa que calcule o ano de nascimento de uma pessoa a partir de
-sua idade e do ano atual,
-"""
+print('50 - Implemente um programa que calcule o ano de nascimento de uma pessoa apartir de sua idade e do ano atual')
+ano =  2022
+idade = int(input('Informe sua idade: '))
+
+print(f'Você nasceu em {ano - idade}')
