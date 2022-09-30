@@ -1,5 +1,5 @@
 import math
-
+"""
 print("1- Faça um programa que receba dois números e mostre qual deles é o maior.")
 
 numero01 = float(input('Informe um número: '))
@@ -9,12 +9,19 @@ if numero01 > numero02:
     print(f'{numero01} é mairo que {numero02}')
 else:
     print(f'{numero02} é mairo que {numero02}')
+"""
 
-"""
-2- Leia um número fornecido pelo usuário. Se esse número for positivo, calcule a raiz
-quadrada do número. Se o número for negativo, mostre uma mensagem dizendo que o
-número é inválido.
-"""
+print("2- Leia um número fornecido pelo usuário. Se esse número for positivo, calcule a raiz"
+      "quadrada do número. Se o número for negativo, mostre uma mensagem dizendo que o"
+      "número é inválido.")
+
+numex02 = float(input('Informe um número: '))
+
+if numex02 > 0:
+    print(f'O númro informado é {numex02} e sua raiz quadrada é {math.sqrt(numex02):.2f}')
+else:
+    print('Número inválido')
+
 """
 3- Leia um numero real. Se o número for positivo imprima a raiz quadrada. Do contrário,
 imprima o numero ao quadrado.
