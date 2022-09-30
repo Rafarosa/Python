@@ -10,7 +10,7 @@ if numero01 > numero02:
 else:
     print(f'{numero02} é mairo que {numero02}')
 """
-
+"""
 print("2- Leia um número fornecido pelo usuário. Se esse número for positivo, calcule a raiz"
       "quadrada do número. Se o número for negativo, mostre uma mensagem dizendo que o"
       "número é inválido.")
@@ -21,11 +21,18 @@ if numex02 > 0:
     print(f'O númro informado é {numex02} e sua raiz quadrada é {math.sqrt(numex02):.2f}')
 else:
     print('Número inválido')
+"""
 
-"""
-3- Leia um numero real. Se o número for positivo imprima a raiz quadrada. Do contrário,
-imprima o numero ao quadrado.
-"""
+print('3- Leia um numero real. Se o número for positivo imprima a raiz quadrada. Do contrário,'
+      'imprima o numero ao quadrado.')
+
+numex03 = float(input('Informe um número real: '))
+
+if numex03 > 0:
+    print(f'O númro informado é {numex03} e sua raiz quadrada é {math.sqrt(numex03):.2f}')
+else:
+    print(f'O quadrado {numex03} é {math.pow(numex03,2)}')
+
 """
 4- Faça um programa que leia um número e, caso ele seja positivo, calcule e mostre:
 
