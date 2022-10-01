@@ -46,7 +46,7 @@ if numex04 > 0:
 else:
     print('Número fora do escopo')
 """
-
+"""
 print('5- Faça um programa que receba um número inteiro e verifique se este número é par ou impar.')
 
 numex05 = int(input('Informe um número: '))
@@ -55,10 +55,19 @@ if (numex05 % 2) >= 1:
     print(f'número {numex05} é impar')
 else:
     print(f'número {numex05} é par ')
-    """
-6- Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles,
-assim como a diferença existente entre ambos.
 """
+
+print('6- Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles,'
+      'assim como a diferença existente entre ambos.')
+
+num_a_ex06 = int(input('Informe o primeiro número interio: '))
+num_b_ex06 = int(input('Informe o segundo número interio: '))
+
+if num_a_ex06 > num_b_ex06:
+    print(f'{num_a_ex06} é mairo que {num_b_ex06}, a diferença entre eles é de {num_a_ex06 - num_b_ex06} ')
+else:
+    print(f'{num_b_ex06} é mairo que {num_a_ex06}, a diferença entre eles é de {num_b_ex06 - num_a_ex06} ')
+
 """
 7- Faça um programa que receba dois números e mostre o maior. Se por acaso, os dois
 números forem iguais, imprima a mensagem Números iguais.
