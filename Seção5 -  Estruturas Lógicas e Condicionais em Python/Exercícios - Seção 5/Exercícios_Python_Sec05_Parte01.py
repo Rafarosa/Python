@@ -22,7 +22,7 @@ if numex02 > 0:
 else:
     print('Número inválido')
 """
-
+"""
 print('3- Leia um numero real. Se o número for positivo imprima a raiz quadrada. Do contrário,'
       'imprima o numero ao quadrado.')
 
@@ -32,13 +32,20 @@ if numex03 > 0:
     print(f'O númro informado é {numex03} e sua raiz quadrada é {math.sqrt(numex03):.2f}')
 else:
     print(f'O quadrado {numex03} é {math.pow(numex03,2)}')
-
 """
-4- Faça um programa que leia um número e, caso ele seja positivo, calcule e mostre:
 
- - O número digitado ao quadrado
- - A raiz quadrada do número digitado
-"""
+print('4- Faça um programa que leia um número e, caso ele seja positivo, calcule e mostre:'
+      '- O número digitado ao quadrado'
+      '- A raiz quadrada do número digitado ')
+
+numex04 = float(input('Informe um número: '))
+
+if numex04 > 0:
+    print(f'o número {numex04} elevado ao quadrado é igual a {math.pow(numex04,2)}')
+    print(f'A raiz quadrada do número {numex04} é {math.sqrt(numex04):.2f}')
+else:
+    print('Número fora do escopo')
+
 """
 5- Faça um programa que receba um número inteiro e verifique se este número é par ou
 impar.
