@@ -33,7 +33,7 @@ if numex03 > 0:
 else:
     print(f'O quadrado {numex03} é {math.pow(numex03,2)}')
 """
-
+"""
 print('4- Faça um programa que leia um número e, caso ele seja positivo, calcule e mostre:'
       '- O número digitado ao quadrado'
       '- A raiz quadrada do número digitado ')
@@ -45,12 +45,17 @@ if numex04 > 0:
     print(f'A raiz quadrada do número {numex04} é {math.sqrt(numex04):.2f}')
 else:
     print('Número fora do escopo')
+"""
 
-"""
-5- Faça um programa que receba um número inteiro e verifique se este número é par ou
-impar.
-"""
-"""
+print('5- Faça um programa que receba um número inteiro e verifique se este número é par ou impar.')
+
+numex05 = int(input('Informe um número: '))
+
+if (numex05 % 2) >= 1:
+    print(f'número {numex05} é impar')
+else:
+    print(f'número {numex05} é par ')
+    """
 6- Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles,
 assim como a diferença existente entre ambos.
 """
