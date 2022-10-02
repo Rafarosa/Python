@@ -96,7 +96,7 @@ if (nota1Ex08 > 0 and nota1Ex08 <=10) and (nota2Ex08 >0 and nota2Ex08 <=10):
 else:
       print('Uma das notas não é válida')
 """
-
+"""
 print('9- Leia o salário de um trabalhador e o valor da prestação de um empréstimo. Se a'
       'prestação for maior que 20% do salário imprima: Empréstimo não concedido, caso'
       'contrário imprima: Empréstimo concedido.')
@@ -113,9 +113,17 @@ else:
       print('Empréstimo não concedido!!')
 
 """
-10- Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu
-peso ideal, utilizando as seguintes fórmulas (onde h corresponde à altura):
+print('10- Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu'
+      'peso ideal, utilizando as seguintes fórmulas (onde h corresponde à altura):'
+      ' Homens: (72.7 * h) - 58'
+      ' Mulheres: (62.1 * h) -  44.7')
 
- Homens: (72.7 * h) - 58
- Mulheres: (62.1 * h) -  44.7
-"""
+sexo = str(input('Informe o seu sexo (M ou F): '))
+if sexo == 'M' or sexo == 'F':
+      h = float(input('Informe sua altura: '))
+      if sexo == 'F':
+            print(f'Seu peso ideal é {((62.1 * h) -  44.7):.2f}!')
+      elif sexo == 'M':
+            print(f'Seu peso ideal é {((72.7 * h) - 58):.2f}!')
+else:
+      print('Sexo não definido')
