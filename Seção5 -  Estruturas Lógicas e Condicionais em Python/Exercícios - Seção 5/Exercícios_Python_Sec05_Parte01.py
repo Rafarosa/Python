@@ -82,7 +82,7 @@ elif num_c_ex07 < num_d_ex07:
 else:
       print('Os números são iguais!!')
 """
-
+"""
 print('8- Faça um programa que leia 2 notas de um aluno, verifique se as notas são válidas e'
       'exiba na tela a média destas notas. Uma nota válida deve ser, obrigatoriamente, um'
       'valor entre 0.0 e 10.0, onde caso a nota não possua um valor válido, este fato deve ser'
@@ -95,11 +95,23 @@ if (nota1Ex08 > 0 and nota1Ex08 <=10) and (nota2Ex08 >0 and nota2Ex08 <=10):
       print(f'a média das notas é {(nota1Ex08 + nota2Ex08) / 2}')
 else:
       print('Uma das notas não é válida')
-      """
-  9- Leia o salário de um trabalhador e o valor da prestação de um empréstimo. Se a
-  prestação for maior que 20% do salário imprima: Empréstimo não concedido, caso
-  contrário imprima: Empréstimo concedido.
-  """
+"""
+
+print('9- Leia o salário de um trabalhador e o valor da prestação de um empréstimo. Se a'
+      'prestação for maior que 20% do salário imprima: Empréstimo não concedido, caso'
+      'contrário imprima: Empréstimo concedido.')
+
+
+salario = float(input('Informe o salário do trabalhador: '))
+prestacao = float(input('informe o valor da prestação:'))
+
+percentual = salario * 0.20
+
+if prestacao <= percentual:
+      print('Empréstimo concedido!!')
+else:
+      print('Empréstimo não concedido!!')
+
 """
 10- Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu
 peso ideal, utilizando as seguintes fórmulas (onde h corresponde à altura):
