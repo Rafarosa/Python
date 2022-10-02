@@ -56,7 +56,7 @@ if (numex05 % 2) >= 1:
 else:
     print(f'número {numex05} é par ')
 """
-
+"""
 print('6- Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles,'
       'assim como a diferença existente entre ambos.')
 
@@ -67,11 +67,21 @@ if num_a_ex06 > num_b_ex06:
     print(f'{num_a_ex06} é mairo que {num_b_ex06}, a diferença entre eles é de {num_a_ex06 - num_b_ex06} ')
 else:
     print(f'{num_b_ex06} é mairo que {num_a_ex06}, a diferença entre eles é de {num_b_ex06 - num_a_ex06} ')
+"""
 
-"""
-7- Faça um programa que receba dois números e mostre o maior. Se por acaso, os dois
-números forem iguais, imprima a mensagem Números iguais.
-"""
+print('7- Faça um programa que receba dois números e mostre o maior. Se por acaso, os dois'
+      'números forem iguais, imprima a mensagem Números iguais.')
+
+num_c_ex07 = int(input('Informe o primeiro número: '))
+num_d_ex07 = int(input('Informe o primeiro número: '))
+
+if num_c_ex07 > num_d_ex07:
+    print(f'{num_c_ex07} é mairo que {num_d_ex07}')
+elif num_c_ex07 < num_d_ex07:
+    print(f'{num_d_ex07} é mairo que {num_c_ex07}')
+else:
+      print('Os números são iguais!!')
+
 """
 8- Faça um programa que leia 2 notas de um aluno, verifique se as notas são válidas e
 exiba na tela a média destas notas. Uma nota válida deve ser, obrigatoriamente, um
