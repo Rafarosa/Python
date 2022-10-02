@@ -68,7 +68,7 @@ if num_a_ex06 > num_b_ex06:
 else:
     print(f'{num_b_ex06} é mairo que {num_a_ex06}, a diferença entre eles é de {num_b_ex06 - num_a_ex06} ')
 """
-
+"""
 print('7- Faça um programa que receba dois números e mostre o maior. Se por acaso, os dois'
       'números forem iguais, imprima a mensagem Números iguais.')
 
@@ -81,18 +81,25 @@ elif num_c_ex07 < num_d_ex07:
     print(f'{num_d_ex07} é mairo que {num_c_ex07}')
 else:
       print('Os números são iguais!!')
+"""
 
-"""
-8- Faça um programa que leia 2 notas de um aluno, verifique se as notas são válidas e
-exiba na tela a média destas notas. Uma nota válida deve ser, obrigatoriamente, um
-valor entre 0.0 e 10.0, onde caso a nota não possua um valor válido, este fato deve ser
-informado ao usuário e o programa termina.
-"""
-"""
-9- Leia o salário de um trabalhador e o valor da prestação de um empréstimo. Se a
-prestação for maior que 20% do salário imprima: Empréstimo não concedido, caso
-contrário imprima: Empréstimo concedido.
-"""
+print('8- Faça um programa que leia 2 notas de um aluno, verifique se as notas são válidas e'
+      'exiba na tela a média destas notas. Uma nota válida deve ser, obrigatoriamente, um'
+      'valor entre 0.0 e 10.0, onde caso a nota não possua um valor válido, este fato deve ser'
+      'informado ao usuário e o programa termina.')
+
+nota1Ex08 = float(input('Informe a primeira nota do aluno:'))
+nota2Ex08 = float(input('Informe a segunda nota do aluno:'))
+
+if (nota1Ex08 > 0 and nota1Ex08 <=10) and (nota2Ex08 >0 and nota2Ex08 <=10):
+      print(f'a média das notas é {(nota1Ex08 + nota2Ex08) / 2}')
+else:
+      print('Uma das notas não é válida')
+      """
+  9- Leia o salário de um trabalhador e o valor da prestação de um empréstimo. Se a
+  prestação for maior que 20% do salário imprima: Empréstimo não concedido, caso
+  contrário imprima: Empréstimo concedido.
+  """
 """
 10- Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu
 peso ideal, utilizando as seguintes fórmulas (onde h corresponde à altura):
