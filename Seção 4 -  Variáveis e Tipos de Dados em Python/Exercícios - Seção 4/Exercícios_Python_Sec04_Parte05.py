@@ -19,7 +19,7 @@ salarioGrati = salarioBase * 0.05
 impostoSalario = salarioBase * 0.07
 salarioLiquido = (salarioBase + salarioGrati) - impostoSalario
 
-print(f' - Salário base do funcionário é de R${salarioBase:.2f}\n'
+print(f' - Salário base do funcionário é de R${salarioBase:.2f}\n '
       f' - Gratificação do funcionário é de R${salarioGrati:.2f}\n'
       f' - Imposto sobre o salário Base é de R${impostoSalario:.2f}\n'
       f' - Salario Líquido é de R$ {salarioLiquido:.2f}')
