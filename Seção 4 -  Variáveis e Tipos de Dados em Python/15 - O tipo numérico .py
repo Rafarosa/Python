@@ -17,7 +17,7 @@ de float. Em Python, no interpretador padrão CPython, os floats
 são implementados usando o tipo double. Números de ponto flutuante têm o caractere . – como em 2.5
 –, para separar as casas decimais. Também podem ser gerados pela função
 float() – como em float(1) ou float(‘2.5’) –, e são aceitas na função
-float() as strings nan e inf comprefixos opcionais + e - – por exemplo,
+float() as strings nan e inf com prefixos opcionais + e - – por exemplo,
 float(‘+nan’).
 
 complex - Os números complexos também estão embutidos na linguagem, mas sua
