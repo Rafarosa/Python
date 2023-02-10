@@ -50,6 +50,13 @@ em 1000, imprimindo seu valor na tela, até que seu valor seja 100000 (cem mil).
 """
 6. Faça um programa que leia 10 inteiros e imprima sua média.
 """
+num61 = 0
+quantidade = 10
+for i in range(quantidade):
+    num6 = int(input(f'Informe {i+1}º número intero para saber a média deles: '))
+    num61 = num61 + num6
+media = num61/quantidade
+print(f"A média dos números informado é {media}")
 """
 7. Faça um programa que leia 10 inteiros positivos, ignorando não positivos, e imprima sua
 média.
