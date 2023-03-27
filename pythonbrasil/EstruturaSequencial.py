@@ -110,3 +110,9 @@ l1 = 1000 * mc1
 
 print(f'{mc1}³ é igual a {l1:.2f} Litros')
 """
+
+def extrai_coluna_csv(nome_arquivo: str, indice_coluna: int, tipo_dado: str):
+
+    coluna =[]
+
+    return coluna
