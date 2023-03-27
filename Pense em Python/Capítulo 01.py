@@ -92,5 +92,5 @@ SyntaxError: leading zeros in decimal integer literals are not permitted; use an
 
 Resposta:
 
-Será exibido os dois valores sem nenhuma açao entre eles
+Será exibido os dois valores
 """
