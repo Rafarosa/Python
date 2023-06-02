@@ -1,0 +1,12 @@
+Preparando ambiente 
+
+JDK
+- Para executar o ambiente pycharme
+- https://www.oracle.com/br/java/technologies/downloads/#jdk20-windows
+
+IDE
+-Pycharme ou Vscode
+
+
+Instalação Python
+- https://www.python.org/downloads/release/python-3113/ 
