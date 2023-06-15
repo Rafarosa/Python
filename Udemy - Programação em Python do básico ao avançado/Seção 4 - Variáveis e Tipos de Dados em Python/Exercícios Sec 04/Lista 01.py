@@ -7,8 +7,9 @@ print(f'O número informado é {ler_numero}')
 
 """
 2. Faça um programa que leia um número real e o imprima.
-ler_numero_real = float(input('Informe um número real: '))
 """
+ler_numero_real = float(input('Informe um número real: '))
+
 print(f'O número real informado é {ler_numero_real}')
 
 """
