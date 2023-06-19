@@ -27,9 +27,9 @@ print(f'A área do quadrado é {area_quadrado} medidas quandadas')
 
 """
 34. Leia o valor do raio de um círculo e calcule e imprima a área do círculo correspondente. A área do circulo é π * raio², considere π =  3.141592
-
-raio = float(input('informe o raio da circulo: '))
 """
+raio = float(input('informe o raio da circulo: '))
+
 area_circulo = 3.141592 * raio**2
 
 print(f'A a área do circulo é {area_circulo:.4f} medidas quadradas')
